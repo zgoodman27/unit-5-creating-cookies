@@ -1,0 +1,20 @@
+{
+  "name": "theme-picker",
+  "version": "1.0.0",
+  "description": "The purpose of this lab is to get more practice sending data from the server to the browser in the form of a cookie. [Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies) are a a text only data format that allows us to keep track of persistent data, and send it between the server and the client side of our application. Cookies are an older part of the internet, and since they are accessible client side they are not terribly secure, but they are fully compatible with all browsers, and are a good way to communicate between the client and the server. They are often used to track non-sensitive data on a site, such as theme preferences, items in a shopping cart, and other such things.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
