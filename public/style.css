@@ -1,1 +1,12 @@
 /* Your code goes here */
+
+/*dark mode*/
+body.darkMode {
+    background-color:#000;
+    color: #fff;
+}
+/*light mode*/
+body.lightMode {
+    background-color: #fff;
+    color: #000;
+}
